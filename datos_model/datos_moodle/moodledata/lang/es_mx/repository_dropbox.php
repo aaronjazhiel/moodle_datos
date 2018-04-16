@@ -1,0 +1,44 @@
+<?php
+
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'repository_dropbox', language 'es_mx', branch 'MOODLE_31_STABLE'
+ *
+ * @package   repository_dropbox
+ * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['apikey'] = 'clave API Dropbox';
+$string['cachelimit'] = 'Límite del caché';
+$string['cachelimit_info'] = 'Escriba el tamaño máximo de los archivos (en bytes) que serán cacheados en el servidor para los alias/atajos de Dropbox. Los archivos cacheados serán servidos cuando ya no esté disponible la fuente. Un valor vacío o cero significa que se cachearán todos los archivos sin importar su tamaño.';
+$string['configplugin'] = 'Configuración de Dropbox';
+$string['dropbox'] = 'Dropbox';
+$string['dropbox:view'] = 'Ver una carpeta de Dropbox';
+$string['instruction'] = 'Usted puede obtener su clave API y su secreto de <a href="http://www.dropbox.com/developers/apps">Dropbox developers</a>. Cuando configure su clave, por favor seleccione "Full Dropbox" como su (nivel de acceso) "Access level".';
+$string['legacyapihelpsupported'] = 'Dropbox introdujo la API OAuth 2 API en Junio del 2015. Usted puede configurar una nueva aplicación en  <a href="https://www.dropbox.com/developers/apps/" target="_blank">https://www.dropbox.com/developers/apps/</a> y especificar la OAuth 2 Redirect URI mostrada debajo.';
+$string['logoutdesc'] = '(Salir cuando termine de usar Dropbox)';
+$string['notitle'] = 'sin_título';
+$string['oauth2redirecturi'] = 'URL de Redirección OAuth 2';
+$string['oauth2title'] = 'API OAth 2';
+$string['pluginname'] = 'Dropbox';
+$string['remember'] = 'Recuérdame';
+$string['secret'] = 'Secreto Dropbox';
+$string['uselegacyapi'] = 'Usar la API v1 deprecada';
+$string['usev2api'] = 'Usar la API OAuth 2 (recomendado)';
